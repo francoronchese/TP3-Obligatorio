@@ -8,24 +8,27 @@
     <meta name="description"
         content="Disfruta de nuestras deliciosas pizzas artesanales, elaboradas con ingredientes frescos y de calidad. ¡Una experiencia culinaria única que te hará volver por más!🍕">
     <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header id="top">
         <h1>Pizzeria Artesanal</h1>
-        <img src="img/pizza-header.avif" alt="Logo Pizzeria">
-
+        <img class="logo-pizza" src="img/pizza-header.avif" alt="Logo Pizzeria">
+        <div class="list-header">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="index.html#menu">Menu</a></li>
             <li><a href="index.html#contacto">Contacto</a></li>
             <li><a href="reservas.html" target="_blank">Reservas</a></li>
         </ul>
+        </div>
     </header>
+    
     <main>
         <h2 id="menu">Menú</h2>
         <img src="img/pizza-menu.jpg" alt="Menu Pizzas">
-        <a href="index.html#top">🔼</a>
+        <a class="top-pointer" href="index.html#top">🔼</a>
     </main>
     <footer>
         <!--Lista de Contacto-->
@@ -33,7 +36,7 @@
         <h2 id="contacto">Contacto</h2>
         <ul>
             <li><a href="https://wa/me/5493487123456">
-                    <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="64px" height="22px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
@@ -68,7 +71,7 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <a href="index.html#top">🔼</a>
+        <a class="top-pointer" href="index.html#top">🔼</a>
     </footer>
 </body>
 
